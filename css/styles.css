@@ -306,17 +306,17 @@ body * {
     color: #FFFFFF;
 }
 
-.control-icon {
+.icon {
     margin-top: 12px;
     display: flex;
     justify-content: center;
 }
 
-.control-icon__image {
+.icon__image {
     position: relative;
 }
 
-.control-icon__image::before {
+.icon__image::before {
     content: '';
     position: absolute;
     top: 15px;
@@ -327,7 +327,7 @@ body * {
     border-radius: 30px;
 }
 
-.control-icon__image::after {
+.icon__image::after {
     content: '';
     position: absolute;
     top: 15px;
@@ -490,4 +490,89 @@ body * {
     line-height: 163.68%;
     color: #181818;
     cursor: pointer;
+}
+
+.title--4 {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.types-container {
+    margin-top: 180px;
+}
+
+.types-examples {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.types__subtitle {
+    text-transform: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin: 0;
+}
+
+.types-examples-block {
+    max-width: 392px;
+    display: flex;
+    justify-content: center;
+}
+
+.types-examples-block-descr {
+    position: absolute;
+    width: 330px;
+    max-height: 286px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    margin: 294px auto auto auto;
+    padding-top: 25px;
+    padding-left: 34px;
+    z-index: 1;
+}
+
+.types-examples-block-descr-list {
+    padding-left: 16px;
+    margin-top: 5px;
+}
+
+.types-examples-block-descr-list__item {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.types-examples-block-descr-cost {
+    /* position: absolute; */
+    margin-top: -10px;
+    margin-left: -35px;
+    /* padding-left: 0; */
+    /* float: left; */
+    text-align: left;
+    width: 228px;
+    height: 54px;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.types-examples-block-descr-cost__value {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
