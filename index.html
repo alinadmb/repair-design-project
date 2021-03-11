@@ -16,11 +16,11 @@
             <nav>
                 <ul class="header-nav">
                     <li class="header-nav__item highlight"><a href="#">HOME</a></li>
-                    <li class="header-nav__item"><a href="#">PROJECTS</a></li>
-                    <li class="header-nav__item"><a href="#">MEASUREMENT</a></li>
+                    <li class="header-nav__item"><a href="#projects">PROJECTS</a></li>
+                    <li class="header-nav__item"><a href="#request">MEASUREMENT</a></li>
                     <li class="header-nav__item"><a href="#">TEAM</a></li>
-                    <li class="header-nav__item"><a href="#">REVIEWS</a></li>
-                    <li class="header-nav__item"><a href="#">CONTACTS</a></li>
+                    <li class="header-nav__item"><a href="#clients">REVIEWS</a></li>
+                    <li class="header-nav__item"><a href="#questions">CONTACTS</a></li>
                 </ul>
             </nav>
             <span><a href="tel:+7(928)768-32-39" class="highlight">+7 (928) 768-32-39</a></span>
@@ -39,7 +39,7 @@
             </div>
             <div class="home-overlay"></div>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <div class="container projects-container">
                 <h2 class="title title--2">Completed</br>projects</h2>
                 <div class="projects-descr">
@@ -192,7 +192,7 @@
                 </div>
             </div>
         </section>
-        <section class="request">
+        <section class="request" id="request">
             <div class="container request-container">
                 <div class="request-stages">
                     <div class="request-stages-stage">
@@ -282,7 +282,7 @@
             </div>
             <div class="fantasies-overlay"></div>
         </section>
-        <section class="clients">
+        <section class="clients" id="clients">
             <div class="container clients-container">
                 <h2 class="title title--4">Our clients</h2>
                 <div class="icon">
@@ -345,8 +345,66 @@
                     </div>
                 </div>
             </div>
+            <div class="clients-bottom">
+                <div class="clients-overlay"></div>
+            </div>
+        </section>
+        <section class="questions" id="questions">
+            <div class="container questions-container">
+                <form action="" class="questions-form">
+                    <div class="questions-form-container">
+                        <legend class="title title--3">Have any questions?</legend>
+                        <div class="questions-form-container-inputs">
+                            <div class="questions-form-container-inputs-uprow">
+                                <div>
+                                    <label for="questions-name" class="label questions__label">Name</br></label>
+                                    <input type="text" name="firstname" id="questions-name" placeholder="What is your name" class="input questions-uprow__input">
+                                </div>
+                                <div>
+                                    <label for="questions-phone" class="label questions__label">Phone</br></label>
+                                    <input type="tel" id="questions-phone" placeholder="Your phone number" class="input questions-uprow__input">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="questions-question" class="label questions__label">Question</br></label>
+                                <input type="text" id="questions-question" placeholder="I want to know" class="input questions__input">
+                            </div>
+                        </div>
+                        <label class="label--checkbox">
+                            <input type="checkbox" class="checkbox">
+                            <span class="fake"></span>
+                            <span class="text questions__text--checkbox">I agree to the processing of personal data</span>
+                        </label>
+                        <input type="submit" value="Submit" class="button questions__button">
+                    </div>
+                </form>
+                <p class="questions__contacts">Rostov-on-Don, Nansen St., 239 Shopping Center</br>Decorum Tel +7 (928) 768 32 29</p>
+                <div class="questions-icons">
+                    <img src="images/questions_mail-icon.png" alt="Mail icon">
+                    <img src="images/questions_ig-icon.png" alt="Instagram icon">
+                </div>
+                <img src="images/questions_map.jpg" alt="Map" class="questions__map">
+            </div>
+            <div class="questions-overlay"></div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container header-content">
+            <div class="logo">IC "Repair Design Project"</div>
+            <nav>
+                <ul class="header-nav">
+                    <li class="header-nav__item highlight"><a href="#">HOME</a></li>
+                    <li class="header-nav__item"><a href="#projects">PROJECTS</a></li>
+                    <li class="header-nav__item"><a href="#request">MEASUREMENT</a></li>
+                    <li class="header-nav__item"><a href="#">TEAM</a></li>
+                    <li class="header-nav__item"><a href="#clients">REVIEWS</a></li>
+                    <li class="header-nav__item"><a href="#questions">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <span><a href="tel:+7(928)768-32-39" class="highlight">+7 (928) 768-32-39</a></span>
+            <button class="button">Request a call</button>
+        </div>
+    </footer>
 </body>
 
 </html>
