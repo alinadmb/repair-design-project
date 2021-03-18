@@ -45,42 +45,52 @@
                 <div class="projects-descr">
                     <p class="text projects__text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
                 </div>
-                <div class="projects-info">
-                    <div class="projects-info__item">
-                        <h3 class="subtitle projects__subtitle">City:</h3>
-                        <span class="text projects__text">Rostov-on-Don LCD admiral</span>
+                <div class="projects-main">
+                    <div class="projects-left">
+                        <div class="projects-info">
+                            <div class="projects-info__item">
+                                <h3 class="subtitle projects__subtitle">City:</h3>
+                                <span class="text projects__text">Rostov-on-Don LCD admiral</span>
+                            </div>
+                            <div class="projects-info__item">
+                                <h3 class="subtitle projects__subtitle">Apartment area:</h3>
+                                <span class="text projects__text">81 m2</span>
+                            </div>
+                            <div class="projects-info__item">
+                                <h3 class="subtitle projects__subtitle">Repair time:</h3>
+                                <span class="text projects__text">3.5 months</span>
+                            </div>
+                            <div class="projects-info__item">
+                                <h3 class="subtitle projects__subtitle">Repair Cost:</h3>
+                                <span class="text projects__text">Upon request</span>
+                            </div>
+                        </div>
+                        <div class="projects-nav">
+                            <button class="button--image"><img class="projects__arrow--back" src="images/arrow.png"></button>
+                            <div class="projects-nav-circles">
+                                <div class="projects-nav-circles__item projects-nav-circles__item--chosen"></div>
+                                <div class="projects-nav-circles__item"></div>
+                                <div class="projects-nav-circles__item"></div>
+                            </div>
+                            <button class="button--image"><img src="images/arrow.png"></button>
+                        </div>
                     </div>
-                    <div class="projects-info__item">
-                        <h3 class="subtitle projects__subtitle">Apartment area:</h3>
-                        <span class="text projects__text">81 m2</span>
+                    <div class="projects-right">
+                        <div class="projects-examples">
+                            <nav>
+                                <ul class="projects-examples-nav">
+                                    <li class="projects-examples-nav__item projects-examples-nav__item--chosen">Rostov-on-Don, Admiral</li>
+                                    <li class="projects-examples-nav__item">Sochi Thieves</li>
+                                    <li class="projects-examples-nav__item">Rostov-on-Don Patriotic</li>
+                                </ul>
+                            </nav>
+                            <div class="projects-examples-img">
+                                <img src="images/mobile_arrow-to.png" class="projects__arrow--mobile projects__arrow-to--mobile">
+                                <img src="images/image 2.1.jpg" alt="Apartment in Rostov-on-Don" class="projects__image">
+                                <img src="images/mobile_arrow-to.png" class="projects__arrow--mobile">
+                            </div>
+                        </div>
                     </div>
-                    <div class="projects-info__item">
-                        <h3 class="subtitle projects__subtitle">Repair time:</h3>
-                        <span class="text projects__text">3.5 months</span>
-                    </div>
-                    <div class="projects-info__item">
-                        <h3 class="subtitle projects__subtitle">Repair Cost:</h3>
-                        <span class="text projects__text">Upon request</span>
-                    </div>
-                </div>
-                <div class="projects-nav">
-                    <button class="button--image"><img class="projects__arrow--back" src="images/arrow.png"></button>
-                    <div class="projects-nav-circles">
-                        <div class="projects-nav-circles__item projects-nav-circles__item--chosen"></div>
-                        <div class="projects-nav-circles__item"></div>
-                        <div class="projects-nav-circles__item"></div>
-                    </div>
-                    <button class="button--image"><img src="images/arrow.png"></button>
-                </div>
-                <div class="projects-examples">
-                    <nav>
-                        <ul class="projects-examples-nav">
-                            <li class="projects-examples-nav__item projects-examples-nav__item--chosen">Rostov-on-Don, Admiral</li>
-                            <li class="projects-examples-nav__item">Sochi Thieves</li>
-                            <li class="projects-examples-nav__item">Rostov-on-Don Patriotic</li>
-                        </ul>
-                    </nav>
-                    <img src="images/image 2.1.jpg" alt="Apartment in Rostov-on-Don" class="projects__image">
                 </div>
             </div>
         </section>
@@ -114,16 +124,17 @@
                             <label for="control-phone" class="label">Phone</br></label>
                             <input type="tel" id="control-phone" placeholder="Your phone number" class="input control__input">
                         </div>
-                        <input type="submit" value="SUBMIT" class="button control__button">
+                        <input type="submit" value="SUBMIT" class="button control__button control__button--desktop">
                     </div>
                 </form>
                 <div class="control-checkbox">
                     <label class="label--checkbox">
                           <input type="checkbox" class="checkbox">
                           <span class="fake"></span>
-                          <span class="text">I agree to the processing of personal data</span>
+                          <span class="text checkbox__text">I agree to the processing of personal data</span>
                     </label>
                 </div>
+                <input type="submit" value="SUBMIT" class="button control__button control__button--mobile">
             </div>
         </section>
         <section class="types">
@@ -136,7 +147,7 @@
                 </div>
                 <div class="types-examples">
                     <div class="types-examples-block">
-                        <img src="images/types_1.jpg" alt="Redecorating">
+                        <img src="images/types_1.jpg" alt="Redecorating" class="types-examples-block__img">
                         <div class="types-examples-block-descr">
                             <h3 class="subtitle types__subtitle">Redecorating</h3>
                             <ul class="types-examples-block-descr-list">
@@ -154,7 +165,7 @@
                         </div>
                     </div>
                     <div class="types-examples-block">
-                        <img src="images/types_2.jpg" alt="Overhaul">
+                        <img src="images/types_2.jpg" alt="Overhaul" class="types-examples-block__img">
                         <div class="types-examples-block-descr">
                             <h3 class="subtitle types__subtitle">Overhaul</h3>
                             <ul class="types-examples-block-descr-list">
@@ -172,7 +183,7 @@
                         </div>
                     </div>
                     <div class="types-examples-block">
-                        <img src="images/types_3.jpg" alt="Designer Repair">
+                        <img src="images/types_3.jpg" alt="Designer Repair" class="types-examples-block__img">
                         <div class="types-examples-block-descr">
                             <h3 class="subtitle types__subtitle">Designer Repair</h3>
                             <ul class="types-examples-block-descr-list">
@@ -254,7 +265,7 @@
         <section class="fantasies">
             <div class="container fantasies-container">
                 <div class="fantasies-left">
-                    <h2 class="title title--2">We realize your</br>wildest fantasies</h2>
+                    <h2 class="title title--2 fantasies__title">We realize your</br>wildest fantasies</h2>
                     <ul class="fantasies-left-list">
                         <li class="fantasies-left-list__item fantasies-left-list__item--chosen">American classic</li>
                         <li class="fantasies-left-list__item">Empire</li>
@@ -278,6 +289,11 @@
                         <img src="images/fantasies_3.jpg" alt="Photo of example">
                         <img src="images/fantasies_4.jpg" alt="Photo of example" class="fantasies-photo-left__item--down">
                     </div>
+                </div>
+                <div class="fantasies-photos--mobile">
+                    <img src="images/mobile_arrow-to.png" class="fantasies__arrow--mobile fantasies__arrow-to--mobile">
+                    <img src="images/fantasies_bg.jpg" alt="Photo of example" class="fantasies-photos--mobile__img">
+                    <img src="images/mobile_arrow-to.png" class="fantasies__arrow--mobile">
                 </div>
             </div>
             <div class="fantasies-overlay"></div>
@@ -365,7 +381,15 @@
                                     <input type="tel" id="questions-phone" placeholder="Your phone number" class="input questions-uprow__input">
                                 </div>
                             </div>
-                            <div>
+                            <div class="questions__input--mobile questions-form-container-inputs-container">
+                                <label for="questions-name" class="label questions__label">Name</br></label>
+                                <input type="text" name="firstname" id="questions-name" placeholder="What is your name" class="input questions__input">
+                            </div>
+                            <div class="questions__input--mobile questions-form-container-inputs-container">
+                                <label for="questions-phone" class="label questions__label">Phone</br></label>
+                                <input type="tel" id="questions-phone" placeholder="Your phone number" class="input questions__input">
+                            </div>
+                            <div class="questions-form-container-inputs-container">
                                 <label for="questions-question" class="label questions__label">Question</br></label>
                                 <input type="text" id="questions-question" placeholder="I want to know" class="input questions__input">
                             </div>
@@ -378,6 +402,7 @@
                         <input type="submit" value="Submit" class="button questions__button">
                     </div>
                 </form>
+                <img src="images/questions_map.jpg" alt="Map" class="questions__map--mobile">
                 <p class="questions__contacts">Rostov-on-Don, Nansen St., 239 Shopping Center</br>Decorum Tel +7 (928) 768 32 29</p>
                 <div class="questions-icons">
                     <img src="images/questions_mail-icon.png" alt="Mail icon">
